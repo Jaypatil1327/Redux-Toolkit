@@ -3,7 +3,7 @@ import {
   IncrementState,
   DecrementState,
   ResetState,
-} from "../store/slices/counter";
+} from "../../store/slices/counter";
 
 function Button({ type }) {
   const dispatch = useDispatch();
